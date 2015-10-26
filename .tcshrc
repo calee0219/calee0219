@@ -14,3 +14,8 @@ set prompt="${green}%n${blue}@%m ${white}%~ ${green}%%${end} "
 
 # Clean up the color
 unset red green yellow blue magenta cyan yellow white end
+
+# For Git
+alias	co="commit"
+alias	lg="log --color --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
+

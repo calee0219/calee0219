@@ -8,8 +8,8 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
-:wq
 :q
+:wq
 :q!
 :w
 
@@ -24,22 +24,27 @@
 # Registers:
 
 # File marks:
-'0  6  0  ~/README.md
-'1  1  0  ~/README.md
-'2  13  0  ~/.tcshrc
-'3  15  19  ~/.tcshrc
-'4  6  3  ~/.tcshrc
-'5  1  81  ~/.tcshrc
-'6  11  49  ~/.tcshrc
-'7  9  18  ~/.cshrc
-'8  1  0  ~/.tcshrc
-'9  1  0  ~/.tcsh
+'0  1  0  ~/.viminfo
+'1  18  8  ~/.tcshrc
+'2  1  0  ~/.gitconfig
+'3  6  0  ~/.git/COMMIT_EDITMSG
+'4  6  0  ~/README.md
+'5  1  0  ~/README.md
+'6  13  0  ~/.tcshrc
+'7  15  19  ~/.tcshrc
+'8  6  3  ~/.tcshrc
+'9  1  81  ~/.tcshrc
 
 # Jumplist (newest first):
+-'  1  0  ~/.viminfo
+-'  18  8  ~/.tcshrc
+-'  1  0  ~/.tcshrc
+-'  1  0  ~/.gitconfig
+-'  6  0  ~/.git/COMMIT_EDITMSG
+-'  1  0  ~/.git/COMMIT_EDITMSG
 -'  6  0  ~/README.md
 -'  1  0  ~/README.md
 -'  13  0  ~/.tcshrc
--'  1  0  ~/.tcshrc
 -'  15  19  ~/.tcshrc
 -'  6  3  ~/.tcshrc
 -'  11  49  ~/.tcshrc
@@ -129,25 +134,16 @@
 -'  1  0  ~/.tcsh
 -'  1  0  ~/.tcsh
 -'  1  0  ~/.tcsh
--'  1  0  ~/.tcsh
--'  9  18  ~/.cshrc
--'  1  0  ~/.cshrc
--'  1  0  ~/.tcsh
--'  1  0  ~/.tcsh
 
 # History of marks within files (newest to oldest):
 
-> ~/README.md
-	"	6	0
-	^	6	0
-	.	5	36
-	+	3	52
-	+	5	36
+> ~/.viminfo
+	"	1	0
 
 > ~/.tcshrc
-	"	13	0
-	^	13	0
-	.	13	0
+	"	18	8
+	^	18	9
+	.	18	8
 	+	1	9
 	+	1	83
 	+	1	9
@@ -186,6 +182,30 @@
 	+	13	0
 	+	15	19
 	+	13	0
+	+	20	153
+	+	19	5
+	+	19	5
+	+	20	5
+	+	19	16
+	+	20	9
+	+	20	150
+	+	18	8
+
+> ~/.gitconfig
+	"	1	0
+
+> ~/.git/COMMIT_EDITMSG
+	"	6	0
+	^	6	0
+	.	5	58
+	+	5	58
+
+> ~/README.md
+	"	6	0
+	^	6	0
+	.	5	36
+	+	3	52
+	+	5	36
 
 > ~/.cshrc
 	"	9	18
